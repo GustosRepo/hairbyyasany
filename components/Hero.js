@@ -4,12 +4,12 @@ import Image from 'next/image'
 function Hero() {
   return (
     <>
-    <div className=" bg-top bg-primary ">
-      <a href="/">
-        <button href="/">
-        <img src="/hero.jpg" alt="portfolio" width="100%" height="50%" className="relative  object-fill  z-10 " />
-        </button>
-      </a>
+    <div className=" bg-top bg-primary flex justify-center">
+      <div>
+        <div>
+        <Image src="/hero.jpg" alt="portfolio" width={1400} height={750} className="relative content-center align-middle object-fill  z-10 " />
+        </div>
+      </div>
     </div>
     </>
   )
