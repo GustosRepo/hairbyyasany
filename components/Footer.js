@@ -58,15 +58,6 @@ function Footer() {
         <p class="mb-4">
           <a href="https://calendly.com/hairbyyasany/hair-consultions" class="text-gray-600">30 minute hair consultations</a>
         </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-600">React</a>
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-gray-600">Vue</a>
-        </p>
-        <p>
-          <a href="#!" class="text-gray-600">Laravel</a>
-        </p>
       </div>
       <div class="">
         <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
