@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
+import Image from "next/image";
 
 
 export default function Cards() {
@@ -19,7 +20,7 @@ export default function Cards() {
                                 <div id="slider" className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
                                     <Slide index={0}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/hair.jpg" alt="hair" className="object-cover object-center w-full" />
+                                            <Image src="/hair.jpg" alt="hair"  width="300" height="300"className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
 
                                                 <div className="flex h-full items-end pb-6">
@@ -30,7 +31,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={1}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/h2.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <Image src="/h2.jpg" alt="sitting area" width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white"> Blonde highlights ♡</h3>
@@ -40,7 +41,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={2}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/h3.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <Image src="/h3.jpg" alt="sitting area" width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Baby lights and Balayage to blend in her natural grey ♡</h3>
@@ -50,7 +51,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={3}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/h4.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <Image src="/h4.jpg" alt="sitting area" width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Full head of balayage and lowlights using @wellahairusa ♡ </h3>
@@ -60,7 +61,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={4}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/h5.jpg" alt="black chair and white table" className="object-cover object-center w-full" />
+                                            <Image src="/h5.jpg" alt="black chair and white table" width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">wine haircolor red Balayage ♡</h3>
@@ -70,7 +71,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={5}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/copper.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <Image src="/copper.jpg" alt="sitting area" width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Copper brown balayage ♡</h3>
@@ -78,7 +79,6 @@ export default function Cards() {
                                             </div>
                                         </div>
                                     </Slide>
-    
                                 </div>
                             </Slider>
                         </div>
@@ -103,7 +103,7 @@ export default function Cards() {
                                 <div id="slider" className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
                                     <Slide index={0}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/hair.jpg" alt="black chair and white table" className="object-cover object-center w-full" />
+                                            <Image src="/hair.jpg" alt="black chair and white table" width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Balayages and Babylights ♡</h3>
@@ -113,7 +113,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={1}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/h2.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <Image src="/h2.jpg" alt="sitting area" width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Blonde highlights ♡</h3>
@@ -123,7 +123,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={2}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/h3.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <Image src="/h3.jpg" alt="sitting area"  width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Baby lights and Balayage to blend in her natural grey ♡</h3>
@@ -133,7 +133,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={3}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/h4.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <Image src="/h4.jpg" alt="sitting area" width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Full head of balayage and lowlights using @wellahairusa ♡ </h3>
@@ -143,7 +143,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={4}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/h5.jpg" alt="black chair and white table" className="object-cover object-center w-full" />
+                                            <Image src="/h5.jpg" alt="black chair and white table" width="300" height="300"  className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Wine haircolor red Balayage ♡</h3>
@@ -153,7 +153,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={5}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/copper.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <Image src="/copper.jpg" alt="sitting area" width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Copper brown balayage ♡</h3>
@@ -185,7 +185,7 @@ export default function Cards() {
                                 <div id="slider" className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700">
                                     <Slide index={0}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/hair.jpg" alt="black chair and white table" className="object-cover object-center w-full" />
+                                            <Image src="/hair.jpg" width="300" height="300" alt="black chair and white table" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Balayages and Babylights ♡</h3>
@@ -195,7 +195,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={1}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                            <img src="/h2.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                            <Image src="/h2.jpg" width="300" height="300" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Blonde highlights ♡</h3>
@@ -205,7 +205,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={2}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/h3.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                        <Image src="/h3.jpg" alt="sitting area" width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Baby lights and Balayage to blend in her natural grey ♡</h3>
@@ -215,7 +215,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={3}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/h4.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                        <Image src="/h4.jpg" alt="sitting area" width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Full head of balayage and lowlights using @wellahairusa ♡ </h3>
@@ -225,7 +225,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={4}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/h5.jpg" alt="black chair and white table" className="object-cover object-center w-full" />
+                                        <Image src="/h5.jpg" alt="black chair and white table" width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Wine haircolor red Balayage ♡ </h3>
@@ -235,7 +235,7 @@ export default function Cards() {
                                     </Slide>
                                     <Slide index={5}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                                        <img src="/copper.jpg" alt="sitting area" className="object-cover object-center w-full" />
+                                        <Image src="/copper.jpg" alt="sitting area" width="300" height="300" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
                                                 <div className="flex h-full items-end pb-6">
                                                     <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">Copper brown balayage ♡</h3>
