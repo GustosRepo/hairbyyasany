@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Service() {
   return (
@@ -16,7 +17,7 @@ function Service() {
                         <div className="text-center space-y-2 sm:text-left"> 
                             <div className="space-y-0.5">
                             <p className="text-lg text-black font-semibold">
-                            Women's Haircut
+                            Womens Haircut
                             </p>
                             <p className="text-slate-500 font-medium">
                             Haircut comes with shampoo and blow dry and styled (waves,curls,straightening)
@@ -25,9 +26,9 @@ function Service() {
                             $57.00 · 1 hour 15 minutes
                             </p>
                             </div>
-                            <a href="https://calendly.com/hairbyyasany/hairapp?month=2023-01">
+                            <Link href="https://calendly.com/hairbyyasany/hairapp?month=2023-01" passHref={true}>
                             <button className="px-4 py-1 text-sm text-pink-500 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-pink-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-pink-600 focus:ring-offset-2">Book now</button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div>
@@ -44,9 +45,10 @@ function Service() {
                             $250.00 · 4 hours 30 minutes
                             </p>
                             </div>
-                            <a href="https://calendly.com/hairbyyasany/hairapp?month=2023-01">
+                            <Link href="https://calendly.com/hairbyyasany/hairapp?month=2023-01" passHref={true}>
                             <button className="px-4 py-1 text-sm text-pink-500 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-pink-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-pink-600 focus:ring-offset-2">Book now</button>
-                            </a>                        </div>
+                            </Link>                     
+                            </div>
                     </div>
                 </div>
             </div>   
@@ -64,9 +66,10 @@ function Service() {
                             $290.00 · 5 hours
                             </p>
                             </div>
-                            <a href="https://calendly.com/hairbyyasany/hairapp?month=2023-01">
+                            <Link href="https://calendly.com/hairbyyasany/hairapp?month=2023-01" passHref={true}>
                             <button className="px-4 py-1 text-sm text-pink-500 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-pink-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-pink-600 focus:ring-offset-2">Book now</button>
-                            </a>                        </div>
+                            </Link>                       
+                            </div>
                     </div>
                     <div>
                     <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
@@ -102,9 +105,10 @@ function Service() {
                             $125.00 · 2 hours 30 minutes
                             </p>
                             </div>
-                            <a href="https://calendly.com/hairbyyasany/hairapp?month=2023-01">
+                            <Link href="https://calendly.com/hairbyyasany/hairapp?month=2023-01" passHref={true}>
                             <button className="px-4 py-1 text-sm text-pink-500 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-pink-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-pink-600 focus:ring-offset-2">Book now</button>
-                            </a>                        </div>
+                            </Link>                      
+                            </div>
                     </div>
                     <div>
                     <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
@@ -120,9 +124,10 @@ function Service() {
                             $250.00 · 3 hours 
                             </p>
                             </div>
-                            <a href="https://calendly.com/hairbyyasany/hairapp?month=2023-01">
+                            <Link href="https://calendly.com/hairbyyasany/hairapp?month=2023-01" passHref={true}>
                             <button className="px-4 py-1 text-sm text-pink-500 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-pink-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-pink-600 focus:ring-offset-2">Book now</button>
-                            </a>                        </div>
+                            </Link>                     
+                            </div>
                     </div>
                 </div>
             </div>   
@@ -140,9 +145,10 @@ function Service() {
                             $250.00 · 4 hours 30 minutes
                             </p>
                             </div>
-                            <a href="https://calendly.com/hairbyyasany/hairapp?month=2023-01">
+                            <Link href="https://calendly.com/hairbyyasany/hairapp?month=2023-01" passHref={true}>
                             <button className="px-4 py-1 text-sm text-pink-500 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-pink-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-pink-600 focus:ring-offset-2">Book now</button>
-                            </a>                        </div>
+                            </Link>                        
+                            </div>
                     </div>
                     <div>
                     <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
@@ -158,9 +164,10 @@ function Service() {
                             $175.00 · 3 hours 30 minutes 
                             </p>
                             </div>
-                            <a href="https://calendly.com/hairbyyasany/hairapp?month=2023-01">
+                            <Link href="https://calendly.com/hairbyyasany/hairapp?month=2023-01" passHref={true}>
                             <button className="px-4 py-1 text-sm text-pink-500 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-pink-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-pink-600 focus:ring-offset-2">Book now</button>
-                            </a>                        </div>
+                            </Link>                       
+                            </div>
                     </div>
                 </div>
             </div>   
