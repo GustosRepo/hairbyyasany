@@ -1,6 +1,9 @@
 import { useState } from "react";
 
 export default function Home() {
+
+  const apiKey = process.env.SENDGRID_API_KEY;
+  
   const [values, setValues] = useState({
     name: "",
     email: "",
