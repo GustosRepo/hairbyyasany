@@ -8,7 +8,7 @@ function About() {
     <div className=" bg-primary flex justify-between">
         <div>
             <div className="flex justify-start">
-                <Image src="/about.jpg" alt="logo" width={1600} height={1600} className="relative bg-contain object-fill w-auto z-10 "/>
+                <Image src="/about.jpg" alt="logo" width={2600} height={1600} className="relative bg-contain object-fill w-auto z-10 "/>
             </div>
         </div>
             <div>
@@ -16,7 +16,7 @@ function About() {
                     <div className=" flex content-center justify-self-center justify-center	">
                     <Image src="/logo.png" alt="logo" width={150} height={150} className=" relative bg-contain object-fill w-64 z-10 "/>
                     </div>
-                    <h1 className="pt-10 sm:text-sm xs:text-xs text-white ">Hello beauties, 
+                    <h1 className="pt-0 sm:text-sm xs:text-xs text-white lg:text-2xl ">Hello beauties, 
                     welcome to my new home.
                     Im excited to start this new adventure with you guys, I’ve been in the hair industry for 10 years and 
                     I’m ready to keep my creativity and passion for hair to continue, I’m constantly learning new techniques 
