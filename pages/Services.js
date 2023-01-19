@@ -4,15 +4,15 @@ import Link from 'next/link'
 function Service() {
   return (
     <>
-    <div className=" bg-primary flex justify-center md:text-left sm:text-left pt-1 p-10" >
+    <div className=" bg-primary flex justify-center md:text-left sm:text-left pt-1 p-10 flex-wrap" >
         <div>
-            <div className="flex flex-col justify-center pb-4-10">
+            <div className="flex flex-col justify-center pb-4-10 flex-wrap">
                 <div>
                     <h1 className="text-white text-center text-2xl">
                         Services
                     </h1>
-                </div>
-                    <div className="flex py-2 px-6 ">
+                    </div>
+                    <div className="flex py-2 px-6 flex-wrap">
                     <div className="py-20 px-8 max-w-sm mx-auto bg-white rounded-lg shadow-lg space-y-2 sm:py-10 sm:flex sm:items-center sm:space-y-0 sm:space-x-8 ">
                         <div className="text-center space-y-2 sm:text-left"> 
                             <div className="space-y-0.5">
@@ -32,8 +32,8 @@ function Service() {
                         </div>
                     </div>
                     <div>
-                    <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-                        <div className="text-center space-y-2 sm:text-left">
+                    <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 flex-wrap">
+                        <div className="text-center space-y-2 sm:text-left flex-wrap">
                             <div className="space-y-0.5 ">
                             <h3 className="text-lg text-black font-semibold">
                             Balayage (hand painted )
@@ -52,7 +52,7 @@ function Service() {
                     </div>
                 </div>
             </div>   
-            <div className="flex py-2 px-6">
+            <div className="flex py-2 px-6 flex-wrap">
                     <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
                         <div className="text-center space-y-2 sm:text-left">
                             <div className="space-y-0.5">
@@ -92,7 +92,7 @@ function Service() {
                     </div>
                 </div>
             </div>   
-            <div className="flex py-2 px-6 ">
+            <div className="flex py-2 px-6 flex-wrap">
                     <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
                         <div className="text-center space-y-2 sm:text-left">
                             <div className="space-y-0.5">
@@ -132,7 +132,7 @@ function Service() {
                     </div>
                 </div>
             </div>   
-             <div className="flex py-2 px-6 ">
+             <div className="flex py-2 px-6 flex-wrap">
                     <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
                         <div className="text-center space-y-2 sm:text-left">
                             <div className="space-y-0.5">

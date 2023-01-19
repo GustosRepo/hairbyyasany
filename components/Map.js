@@ -16,7 +16,7 @@ export default function Map(){
 
 
   return (
-        <GoogleMap zoom={12} center={center} mapContainerClassName="map-container">
+        <GoogleMap zoom={12} center={center} mapContainerClassName="map-container h-96">
         <MarkerF position={center} />
         </GoogleMap>
   )

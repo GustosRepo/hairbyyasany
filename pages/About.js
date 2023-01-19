@@ -8,13 +8,13 @@ function About() {
     <div className=" bg-primary flex justify-between">
         <div>
             <div className="flex justify-start">
-                <Image src="/about.jpg" alt="logo" width={1200} height={1200} className="relative bg-contain object-fill w-auto z-10 "/>
+                <Image src="/about.jpg" alt="logo" width={1600} height={1600} className="relative bg-contain object-fill w-auto z-10 "/>
             </div>
         </div>
             <div>
                 <div className="flex flex-col justify-end w-full lg:p-20 md:p-8 text-center xs:p-1 lg:justify-self-center lg:text-2xl leading-10  whitespace-pre-line  ">
                     <div className=" flex content-center justify-self-center justify-center	">
-                    <Image src="/logo.png" alt="logo" width="50" height="50" className=" relative bg-contain object-fill w-64 z-10 "/>
+                    <Image src="/logo.png" alt="logo" width={150} height={150} className=" relative bg-contain object-fill w-64 z-10 "/>
                     </div>
                     <h1 className="pt-10 sm:text-sm xs:text-xs text-white ">Hello beauties, 
                     welcome to my new home.
